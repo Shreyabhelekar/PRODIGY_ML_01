@@ -1,5 +1,3 @@
-# PRODIGY_ML_01
-
 # House-Price-Prediction
 
 This repository contains a Flask-based web application that predicts house prices using a trained linear regression model. The application takes basic details about a house as input and provides a predicted price as output.
