@@ -4,28 +4,42 @@ This repository contains a Flask-based web application that predicts house price
 
 # Features
 Data Preprocessing: The dataset is preprocessed to include features such as GrLivArea, BedroomAbvGr, and TotalBath (calculated from FullBath and HalfBath).
+
 Model Training: A linear regression model is trained on the provided dataset to predict house prices.
+
 Web Interface: A simple and interactive web interface allows users to input house features and get price predictions.
+
 Rupee Conversion: The predicted price is converted into Indian Rupees (INR).
 
 # Requirements
 The project uses the following Python libraries:
+
 Flask
+
 Joblib
+
 Numpy
+
 Pandas
+
 Scikit-learn
 
 # Files in the Repository
 app.py: Contains the Flask application and prediction logic.
+
 train.csv: The dataset used for model training (not included; replace with your dataset).
+
 house_price_model.pkl: Serialized model file (generated after training).
+
 scaler.pkl: Serialized scaler for feature normalization.
+
 templates/: Folder containing the HTML templates for the web interface.
 
 # Running the Application
 Clone the repository: bash Copy code - 
+
 git clone https://github.com/House-Price-Prediction.git
+
 cd House-Price-Prediction
 
 Ensure all dependencies are installed: pip install -r requirements.txt
