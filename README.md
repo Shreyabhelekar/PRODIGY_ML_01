@@ -38,9 +38,9 @@ templates/: Folder containing the HTML templates for the web interface.
 # Running the Application
 Clone the repository: 
 
-bash Copy code - 
-
 git clone https://github.com/Shreyabhelekar/PRODIGY_ML_01.git
+
+Navigate to the project directory:
 
 cd PRODIGY_ML_01
 
