@@ -36,15 +36,22 @@ scaler.pkl: Serialized scaler for feature normalization.
 templates/: Folder containing the HTML templates for the web interface.
 
 # Running the Application
-Clone the repository: bash Copy code - 
+Clone the repository: 
 
-git clone https://github.com/House-Price-Prediction.git
+bash Copy code - 
 
-cd House-Price-Prediction
+git clone https://github.com/Shreyabhelekar/PRODIGY_ML_01.git
 
-Ensure all dependencies are installed: pip install -r requirements.txt
+cd PRODIGY_ML_01
+
+Ensure all dependencies are installed: 
+
+pip install -r requirements.txt
+
 Place your training dataset (train.csv) in the root directory.
+
 Run the Flask application: python app.py
+
 Open your browser and go to: http://localhost:5001/
 
 
@@ -52,18 +59,25 @@ Open your browser and go to: http://localhost:5001/
 Input: Enter the following house details in the form:
 
 GrLivArea: Above-ground living area in square feet.
+
 BedroomAbvGr: Number of bedrooms above ground.
+
 TotalBath: Total number of bathrooms (calculated as full baths + 0.5 × half baths).
+
 Prediction: The application preprocesses the inputs, scales them using the pre-trained scaler, and predicts the price using the trained linear regression model.
 
 Output: The predicted house price is displayed in Indian Rupees.
 
 # Model Details
 Algorithm: Linear Regression
+
 Features Used:
 GrLivArea
+
 BedroomAbvGr
+
 TotalBath
+
 The model was trained on a sample dataset (train.csv) and evaluated using the Mean Squared Error metric.
 
 
