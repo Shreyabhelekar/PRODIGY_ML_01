@@ -37,16 +37,13 @@ templates/: Folder containing the HTML templates for the web interface.
 
 # Running the Application
 Clone the repository: 
-
+```bash
 git clone https://github.com/Shreyabhelekar/PRODIGY_ML_01.git
-
+```
 Navigate to the project directory:
-
+```bash
 cd PRODIGY_ML_01
-
-Ensure all dependencies are installed: 
-
-pip install -r requirements.txt
+```
 
 Place your training dataset (train.csv) in the root directory.
 
